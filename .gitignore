@@ -1,0 +1,17 @@
+# Ignorar entornos virtuales
+venv/
+
+# Ignorar archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorar archivos de entorno local
+.env
+
+# Ignorar bases de datos temporales o dumps de mongo
+*.dump
+
+# Ignorar configuraciones de editores (VS Code, etc.)
+.vscode/
+*.log
